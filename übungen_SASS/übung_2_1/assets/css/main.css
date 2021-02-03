@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(64deg, #5bf2fd 12.5%, #fcc736 12.5%, #fcc736 25%, #fd5f5f 25%, #fd5f5f 37.5%, #bb4dfa 37.5%, #bb4dfa 50%, #5bf2fd 50%, #5bf2fd 62.5%, #fcc736 62.5%, #fcc736 75%, #fd5f5f 75%, #fd5f5f 87.5%, #bb4dfa 87.5%, #bb4dfa 100%);
+  background-repeat: no-repeat;
+}
+body section {
+  height: 90vh;
+  display: grid;
+  place-items: center;
+}
+body section div h1 {
+  color: antiquewhite;
+  font-size: 10rem;
+}
+body section h2 {
+  color: antiquewhite;
+  font-size: 7rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

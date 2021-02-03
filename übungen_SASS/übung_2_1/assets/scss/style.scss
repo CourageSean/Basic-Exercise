@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+$baby-blue:#5bf2fd;
+$egg:#fcc736;
+$ketchup:#fd5f5f;
+$ultra:#bb4dfa;
+
+
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  height: 100vh;
+  background: linear-gradient(64deg, #5bf2fd 12.50%, #fcc736 12.50%, #fcc736 25%, #fd5f5f 25%, #fd5f5f 37.50%, #bb4dfa 37.50%, #bb4dfa 50%, #5bf2fd 50%, #5bf2fd 62.50%, #fcc736 62.50%, #fcc736 75%, #fd5f5f 75%, #fd5f5f 87.50%, #bb4dfa 87.50%, #bb4dfa 100% );
+  background-repeat: no-repeat;
+   section{
+     height: 90vh;
+     display:grid;
+     place-items: center;
+
+     div{
+       h1{
+         color: antiquewhite;
+         font-size: 10rem;
+       }
+     }  h2{
+      color: antiquewhite;
+      font-size:7rem;
+      text-align: center;
+        }
+   }
+}

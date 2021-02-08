@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+button {
+  background-color: #035aa6;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.wrapper {
+  max-width: 500px;
+}
+/* div {
+  border-radius: 5px;
+} */
+
+.small {
+  border: grey solid 5px;
+  border-radius: 15px;
+  color: lightgreen;
+}
+
+.medium {
+  border: grey solid 10px;
+  border-radius: 15px;
+  color: lightgreen;
+}
+
+.big {
+  border: green solid 20px;
+  border-radius: 25px;
+  color: yellow;
+  font-size: 4rem;
+  font-family: "Gloria Hallelujah";
+  transition: color 1s;
+}
+
+#random {
+  width: 5%;
+  margin: auto;
+  margin-top: 100px;
+  border: 2px solid;
+  font-size: 1rem;
+  padding: 30px;
+  background: #035aa6;
+  color: white;
+}

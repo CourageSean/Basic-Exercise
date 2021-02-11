@@ -1,0 +1,14 @@
+body {
+  height: 100vh;
+}
+section {
+  display: flex;
+}
+
+article {
+  flex: 1 1 45%;
+}
+
+span {
+  display: none;
+}

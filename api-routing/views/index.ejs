@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Movies</h1>
+    <h1>Sean</h1>
+    <h2> <%=search%> </h2>
+
+  <%mova.map(elt=> {elt.year ===String(search)%>
+   
+        <div class="item-container">
+         <h3><%=elt.title %>   </h3>
+        <h3><%=elt.year %>   </h3>  
+        <!-- <h2><%=elt.director %>   </h2>
+        <h3><%=elt.duration %>   </h3>
+        <h3><%=elt.genre %>   </h3>
+        <h3><%=elt.rate %>  </h3> 
+        <br>   -->
+    </div>
+       <% })%>
+     
+</body>
+</html>

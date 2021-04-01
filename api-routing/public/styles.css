@@ -1,0 +1,8 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.item-container{
+    border:3px solid blue;
+}
